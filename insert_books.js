@@ -1,3 +1,4 @@
+// insert_books.js
 // insert_books.js - Script to populate MongoDB with sample book data
 
 // Import MongoDB client
@@ -133,6 +134,8 @@ const books = [
     publisher: 'Thomas Cautley Newby'
   }
 ];
+
+db.books.insertMany(books);
 
 // Function to insert books into MongoDB
 async function insertBooks() {

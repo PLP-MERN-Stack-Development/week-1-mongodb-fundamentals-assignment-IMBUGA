@@ -1,4 +1,41 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19746839&assignment_repo_type=AssignmentRepo)
+# 📚 PLP Bookstore - MongoDB Assignment (Week 1)
+
+This project demonstrates MongoDB fundamentals and advanced data layer techniques using a bookstore dataset.
+
+## 📦 Contents
+
+- `insert_books.js`: Script to insert 12 book documents into the `plp_bookstore` database.
+- `queries.js`: Contains all required MongoDB queries including CRUD, advanced filtering, aggregation, and indexing.
+- `screenshot.png`: Screenshot showing the MongoDB Compass or Atlas collection.
+
+---
+
+## 🛠️ How to Run
+
+### 1. MongoDB Setup
+
+You can run this locally or on MongoDB Atlas:
+
+- **Local MongoDB**
+  1. Install MongoDB: [MongoDB Community Edition](https://www.mongodb.com/try/download/community)
+  2. Start the MongoDB service.
+  3. Open `mongosh`.
+
+- **MongoDB Atlas (Cloud)**
+  1. Sign up at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+  2. Create a free cluster.
+  3. Connect using your connection string.
+
+### 2. Insert Book Data
+
+From the shell:
+
+```sh
+mongosh < insert_books.js
+
+
+
+
 # MongoDB Fundamentals Assignment
 
 This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
